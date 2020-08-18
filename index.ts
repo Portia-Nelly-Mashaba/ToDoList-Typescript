@@ -18,8 +18,11 @@ let ToDoList = [
   {taskName: "StudyAngular", taskDate: "2020/08/31", taskStatus: "ToDo"}
 ];
 
+//Log console before change
 console.log("Before update: ", ToDoList[4]);
+//Update Status
 ToDoList[4].taskStatus = "Done";
+//Log console after change
 console.log("After update: ", ToDoList[4]);
 
 
